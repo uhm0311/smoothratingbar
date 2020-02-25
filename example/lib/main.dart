@@ -21,9 +21,9 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-            child: SmoothStarRating(
+          child: SmoothStarRating(
           rating: rating,
-          size: 45,
+          width: 45,
           starCount: 5,
           spacing: 2.0,
           onRatingChanged: (value) {
